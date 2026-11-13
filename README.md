@@ -9,12 +9,10 @@ saber quem está disponível e quais são suas especialidades.
 Node.js · Express · MySQL · Docker · Jest · Supertest
 
 ## Como executar
-## Como executar
 
 ### Pré-requisitos
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado e **aberto** (aguarde aparecer "Engine running").
-- Portas **3000** (API) e **3307** (MySQL) livres no computador.
 
 ### Passo a passo
 
@@ -71,7 +69,7 @@ Invoke-RestMethod -Uri http://localhost:3000/consultores
 
 Os testes usam Jest e Supertest e não precisam do Docker nem do banco de dados. É necessário ter o Node.js instalado.
 
-```bash
+```cmd
 npm install
 npm test
 ```
